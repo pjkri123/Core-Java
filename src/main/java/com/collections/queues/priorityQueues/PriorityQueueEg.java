@@ -5,17 +5,17 @@ import java.util.PriorityQueue;
 
 public class PriorityQueueEg {
     public static void main(String[] args) {
-        PriorityQueue<Integer> list=new PriorityQueue<>();
-        list.add(10);
-        list.add(30);
-        list.add(40);
-        list.add(20);
-        list.add(20);
+        PriorityQueue<Integer> queue=new PriorityQueue<>();
+        queue.add(10);
+        queue.add(30);
+        queue.add(40);
+        queue.add(20);
+        queue.add(20);
 
-        System.out.println(list); //heap order, not sorted order
+        System.out.println(queue); //heap order, not sorted order
 
-//        list.peek(); // it will give the smallest element
-        while(!list.isEmpty()) System.out.println(list.poll());
+//        queue.peek(); // it will give the smallest element
+        while(!queue.isEmpty()) System.out.println(queue.poll());
 
         PriorityQueue<Employee> employees=new PriorityQueue<>();
 

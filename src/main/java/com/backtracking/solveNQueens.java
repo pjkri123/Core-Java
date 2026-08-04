@@ -1,5 +1,5 @@
 import java.util.*;
-class Main {
+class SolveNQueens {
     public static void main(String[] args) {
         int n=4;
         List<List<Integer>> result=new ArrayList<>();
